@@ -14,6 +14,7 @@ void fun1()
 void fun2()
 {
     vector <string> array;
+    ifstream in("txt.txt");
 
 }
 
