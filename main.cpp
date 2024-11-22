@@ -15,6 +15,14 @@ void fun2()
 {
     vector <string> array;
     ifstream in("txt.txt");
+    if (in.is_open())
+    {
+        string s;
+        while(getline(in, s))
+        {
+            array.push_back(s);
+        }
+    }
 
 }
 
