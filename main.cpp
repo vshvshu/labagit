@@ -6,24 +6,25 @@
 
 using namespace std;
 
-void f1()
+void fun1()
+{
+
+
+}
+
+void fun2()
 {
 
 }
 
-void f2()
-{
-
-}
-
-void f3()
+void fun3()
 {
 
 }
 
 int main()
 {
-    f1();
-    f2();
-    f3();
+    fun1();
+    fun2();
+    fun3();
 }
