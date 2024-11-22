@@ -22,6 +22,10 @@ void fun2()
         {
             array.push_back(s);
         }
+        for (const auto& str : array)
+        {
+            cout << str << endl;
+        }
     }
 
 }
